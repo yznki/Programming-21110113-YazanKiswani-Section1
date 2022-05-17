@@ -4,6 +4,7 @@ public class PartTime {
 
 	private int hoursWorked;
 	private int hourRate = 10;
+	private String name; 
 	
 	public PartTime() {
 		
@@ -11,6 +12,14 @@ public class PartTime {
 	
 	public PartTime(int hoursWorked) {
 		this.hoursWorked = hoursWorked;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public int getHoursWorked() {
